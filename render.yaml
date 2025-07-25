@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: alysa-chat
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
